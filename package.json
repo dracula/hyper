@@ -1,0 +1,20 @@
+{
+  "name": "hyperterm-dracula",
+  "version": "0.1.0",
+  "description": "Dark dracule HyperTerm theme",
+  "license": "MIT",
+  "repository": "dangvanthanh/hyperterm-dark-dracula",
+  "author": {
+    "name": "Dang Van Thanh",
+    "email": "dangvanthanh@dangthanh.org",
+    "url": "dangthanh.org"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyperterm",
+    "hyperterm-theme",
+    "hyperterm-dark-dracula"
+  ]
+}
