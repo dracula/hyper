@@ -41,12 +41,8 @@ exports.decorateConfig = config => {
     ],
     css: `
 			${config.css || ''}
-      .tabs. .tabs_list .tabs_text {
-        color: #6272a4;
-      }
-
 			.tab_active:before {
-				border-color: rgba(255, 106, 193, 0.25);
+				border-color: rgba(80, 250, 108, .65);
 			}
 		`
   })
