@@ -1,4 +1,4 @@
-# hyperterm-dracula
+# hyperterm-dark-dracula
 
 [![Build Status](https://travis-ci.org/dangvanthanh/hyperterm-dark-dracula.svg?branch=master)](https://travis-ci.org/dangvanthanh/hyperterm-dracula)
 
@@ -8,12 +8,12 @@
 
 ## Install
 
-Add `hyperterm-dracula` to the plugins list in your `~/.hyperterm.js` config file.
+Add `hyperterm-dark-dracula` to the plugins list in your `~/.hyperterm.js` config file.
 
 ```
 plugins: [
 	"hyperterm-dark-dracula"
-],
+]
 ```
 
 ## License
