@@ -16,6 +16,10 @@ plugins: [
 ]
 ```
 
+## Tip
+
+To get the exact same look as in the screenshot, you need to use [honukai-iterm-zsh](https://github.com/oskarkrawczyk/honukai-iterm-zsh), [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and [source code pro](https://github.com/powerline/fonts) font.
+
 ## License
 
 MIT © [Dang Van Thanh](http://dangthanh.org)
