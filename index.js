@@ -41,18 +41,8 @@ exports.decorateConfig = config => {
     ],
     css: `
 			${config.css || ''}
-      .tabs_list .tab_tab.tab_active:after {
-				content: " ";
-				background: #6272a4;
-		    display: inline-block;
-		    width: 8px;
-		    height: 8px;
-		    position: absolute;
-		    top: 50%;
-		    left: 5px;
-		    border-radius: 100%;
-		    transform: translateY(-50%);
-		    -webkit-transform: translateY(-50%);
+      .tabs_list .tab_tab.tab_active .tab_text  {
+				background: ${backgroundColor};
 			}
 
 			.tab_active:before {
