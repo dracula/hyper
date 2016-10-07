@@ -1,18 +1,18 @@
-# hyperterm-dark-dracula
+# hyper-dark-dracula
 
-[![Build Status](https://travis-ci.org/dangvanthanh/hyperterm-dark-dracula.svg?branch=master)](https://travis-ci.org/dangvanthanh/hyperterm-dracula)
+[![Build Status](https://travis-ci.org/dangvanthanh/hyper-dark-dracula.svg?branch=master)](https://travis-ci.org/dangvanthanh/hyper-dracula)
 
-> Dark dracula [HyperTerm](https://hyperterm.org/) theme
+> Dark dracula [Hyper.app](https://hyper.is/) theme
 
 ![](screenshot.png)
 
 ## Install
 
-Add `hyperterm-dark-dracula` to the plugins list in your `~/.hyperterm.js` config file.
+Add `hyper-dark-dracula` to the plugins list in your `~/.hyper.js` config file.
 
 ```
 plugins: [
-	"hyperterm-dark-dracula"
+	"hyper-dark-dracula"
 ]
 ```
 
