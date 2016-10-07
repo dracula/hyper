@@ -1,6 +1,6 @@
 # hyper-dark-dracula
 
-[![Build Status](https://travis-ci.org/dangvanthanh/hyper-dark-dracula.svg?branch=master)](https://travis-ci.org/dangvanthanh/hyper-dracula)
+[![Build Status](https://travis-ci.org/dangvanthanh/hyper-dark-dracula.svg?branch=master)](https://travis-ci.org/dangvanthanh/hyper-dark-dracula)
 
 > Dark dracula [Hyper.app](https://hyper.is/) theme
 
