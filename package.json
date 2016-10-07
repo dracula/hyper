@@ -1,9 +1,9 @@
 {
-  "name": "hyperterm-dark-dracula",
-  "version": "0.1.4",
-  "description": "Dark dracule HyperTerm theme",
+  "name": "hyper-dark-dracula",
+  "version": "0.1.5",
+  "description": "Dark dracule Hyper.app theme",
   "license": "MIT",
-  "repository": "dangvanthanh/hyperterm-dark-dracula",
+  "repository": "dangvanthanh/hyper-dark-dracula",
   "author": {
     "name": "Dang Van Thanh",
     "email": "dangvanthanh@dangthanh.org",
@@ -13,8 +13,8 @@
     "index.js"
   ],
   "keywords": [
-    "hyperterm",
-    "hyperterm-theme",
-    "hyperterm-dark-dracula"
+    "hyper",
+    "hyper-theme",
+    "hyper-dark-dracula"
   ]
 }

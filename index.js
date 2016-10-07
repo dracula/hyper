@@ -10,7 +10,7 @@ const blue = '#6272a4'
 const magenta = '#ff79c6'
 const cyan = '#8be9fd'
 const gray = '#666666'
-const brightBlack = backgroundColor
+const brightBlack = '#999999'
 const brightWhite = '#ffffff'
 
 exports.decorateConfig = config => {
@@ -41,7 +41,7 @@ exports.decorateConfig = config => {
     ],
     css: `
 			${config.css || ''}
-      .tabs_list .tab_tab.tab_active .tab_text  {
+			.tabs_list .tab_tab.tab_active .tab_text  {
 				background: ${backgroundColor};
 			}
 
