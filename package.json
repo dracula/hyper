@@ -1,9 +1,9 @@
 {
-  "name": "hyper-dark-dracula",
+  "name": "hyper-dracula",
   "version": "0.1.6",
-  "description": "Dark dracule Hyper.app theme",
+  "description": "A dark theme for Hyper",
   "license": "MIT",
-  "repository": "dangvanthanh/hyper-dark-dracula",
+  "repository": "dangvanthanh/hyper-dracula",
   "author": {
     "name": "Dang Van Thanh",
     "email": "dangvanthanh@dangthanh.org",
@@ -13,8 +13,9 @@
     "index.js"
   ],
   "keywords": [
+    "dracula-theme",
     "hyper",
     "hyper-theme",
-    "hyper-dark-dracula"
+    "hyper-dracula"
   ]
 }

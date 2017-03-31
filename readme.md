@@ -1,25 +1,21 @@
-# hyper-dark-dracula
+# Dracula for [Hyoer](https://hyper.is)
 
-[![Build Status](https://travis-ci.org/dangvanthanh/hyper-dark-dracula.svg?branch=master)](https://travis-ci.org/dangvanthanh/hyper-dark-dracula)
-
-> Dark dracula [Hyper.app](https://hyper.is/) theme
+> A dark theme for [Hyoer](https://hyper.is).
 
 ![](screenshot.png)
 
 ## Install
 
-Add `hyper-dark-dracula` to the plugins list in your `~/.hyper.js` config file.
+All instructions can be found at [draculatheme.com/hyper](https://draculatheme.com/hyper).
 
-```
-plugins: [
-	"hyper-dark-dracula"
-]
-```
+## Team
 
-## Tip
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/template/graphs/contributors).
 
-To get the exact same look as in the screenshot, you need to use [honukai-iterm-zsh](https://github.com/oskarkrawczyk/honukai-iterm-zsh), [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and [source code pro](https://github.com/powerline/fonts) font.
+[![Dang Van Thanh](https://avatars2.githubusercontent.com/u/2674850?v=3&s=70)](https://github.com/dangvanthanh) |
+--- |
+Dang Van Thanh |
 
 ## License
 
-MIT © [Dang Van Thanh](http://dangthanh.org)
+[MIT License](./LICENSE)
