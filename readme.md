@@ -2,7 +2,7 @@
 
 > A dark theme for [Hyper](https://hyper.is).
 
-![](screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Install
 
