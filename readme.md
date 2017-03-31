@@ -1,6 +1,6 @@
-# Dracula for [Hyoer](https://hyper.is)
+# Dracula for [Hyper](https://hyper.is)
 
-> A dark theme for [Hyoer](https://hyper.is).
+> A dark theme for [Hyper](https://hyper.is).
 
 ![](screenshot.png)
 
