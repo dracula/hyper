@@ -1,13 +1,13 @@
 {
   "name": "hyper-dracula",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A dark theme for Hyper",
   "license": "MIT",
   "repository": "dracula/hyper",
   "author": {
     "name": "Dang Van Thanh",
     "email": "dangvanthanh@dangthanh.org",
-    "url": "dangthanh.org"
+    "url": "http://dangthanh.org"
   },
   "files": [
     "index.js"

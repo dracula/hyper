@@ -20,9 +20,9 @@ The screenshot shown is a combination of the following additional software:
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/template/graphs/contributors).
 
-[![Dang Van Thanh](https://avatars2.githubusercontent.com/u/2674850?v=3&s=70)](https://github.com/dangvanthanh) |
---- |
-Dang Van Thanh |
+[![Dang Van Thanh](https://avatars2.githubusercontent.com/u/2674850?v=3&s=70)](https://github.com/dangvanthanh) | [![Zeno Rocha](https://avatars2.githubusercontent.com/u/398893?s=70&v=4)](https://github.com/zenorocha) | [![Beau Allison](https://avatars3.githubusercontent.com/u/14225594?s=70&v=4)](https://github.com/beauallison) | [![brandonptucker](https://avatars1.githubusercontent.com/u/1033893?s=70&v=4)](https://github.com/brandonptucker) |
+--- | --- | --- | --- |
+Dang Van Thanh | Zeno Rocha | Beau Allison | brandonptucker |
 
 ## License
 
