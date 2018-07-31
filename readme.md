@@ -18,7 +18,7 @@ The screenshot shown is a combination of the following additional software:
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/template/graphs/contributors).
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/hyper/graphs/contributors).
 
 [![Dang Van Thanh](https://avatars2.githubusercontent.com/u/2674850?v=3&s=70)](https://github.com/dangvanthanh) |
 --- | 
