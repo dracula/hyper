@@ -19,7 +19,7 @@ exports.decorateConfig = config => {
     foregroundColor,
     borderColor: black,
     cursorColor: brightBlack,
-    colors: [
+    colors: {
       black,
       red,
       green,
@@ -38,7 +38,7 @@ exports.decorateConfig = config => {
       magenta,
       cyan,
       brightWhite
-    ],
+    },
     css: `
 			${config.css || ''}
 			.tabs_list .tab_tab.tab_active .tab_text  {
