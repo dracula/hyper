@@ -13,8 +13,10 @@ All instructions can be found at [draculatheme.com/hyper](https://draculatheme.c
 The screenshot shown is a combination of the following additional software:
 
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
-- [Pure theme](https://github.com/sindresorhus/pure)
-- [Zsh syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [Prezto](https://github.com/sorin-ionescu/prezto)
+- [Powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k#rbenv)
+- [Fast syntax highlighting](https://github.com/zdharma/fast-syntax-highlighting)
+- [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack)
 
 ## Team
 
