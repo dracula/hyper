@@ -9,10 +9,10 @@
 Add `hyper-dracula` to the plugins list in your `~/.hyper.js` config file.
 
     plugins: [
-    	"hyper-dracula"
+    	'hyper-dracula'
     ]
 
 #### Activating theme
 
 1.  Start Hyper
-2.  Go to `View -> Full Reload`
+2.  Go to `View -> Full Reload` or pressing `Cmd + Shft + R`
