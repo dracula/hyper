@@ -3,7 +3,7 @@
 const backgroundColor = '#282a36';
 const foregroundColor = '#f8f8f2';
 const borderColor = '#44475a';
-const cursorColor = 'f8f8f2';
+const cursorColor = '#f8f8f2';
 const colors = {
   black: '#000000',
   red: '#ff5555',
@@ -12,7 +12,7 @@ const colors = {
   blue: '#bd93f9',
   magenta: '#ff79c6',
   cyan: '#8be9fd',
-  white: 'bfbfbf',
+  white: '#bfbfbf',
   lightBlack: '#4d4d4d',
   lightRed: '#ff6e67',
   lightGreen: '#5af78e',
@@ -20,10 +20,10 @@ const colors = {
   lightBlue: '#caa9fa',
   lightMagenta: '#ff92d0',
   lightCyan: '#9aedfe',
-  lightWhite: '#e6e6e6'
+  lightWhite: '#e6e6e6',
 };
 
-exports.decorateConfig = config => {
+exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     backgroundColor,
     foregroundColor,
@@ -42,6 +42,6 @@ exports.decorateConfig = config => {
 			.tab_active:before {
 				border-color: ${borderColor};
 			}
-		`
+		`,
   });
 };
