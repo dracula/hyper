@@ -22,26 +22,27 @@ const colors = {
   lightCyan: '#9aedfe',
   lightWhite: '#e6e6e6',
 };
+const termCSS = (config) => `
+  ${config.termCSS || ''}
+`;
+const css = (config) => `
+  ${config.css || ''}
+  .tabs_list .tab_tab.tab_active .tab_text  {
+    background: ${backgroundColor};
+  }
 
-exports.decorateConfig = (config) => {
-  return Object.assign({}, config, {
+  .tab_active:before {
+    border-color: ${borderColor};
+  }
+`;
+
+exports.decorateConfig = (config) =>
+  Object.assign({}, config, {
     backgroundColor,
     foregroundColor,
     borderColor,
     cursorColor,
     colors,
-    termCSS: `
-      ${config.termCSS || ''}
-    `,
-    css: `
-			${config.css || ''}
-			.tabs_list .tab_tab.tab_active .tab_text  {
-				background: ${backgroundColor};
-			}
-
-			.tab_active:before {
-				border-color: ${borderColor};
-			}
-		`,
+    termCSS,
+    css,
   });
-};
