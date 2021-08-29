@@ -18,6 +18,23 @@ The screenshot shown is a combination of the following additional software:
 - [Fast syntax highlighting](https://github.com/zdharma/fast-syntax-highlighting)
 - [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack)
 
+## Vim and Hyper
+
+If you have issues Vim and Hyper theme colour mismatch. Open `.vimrc` or `init.vim` adding these lines before the line with `colorscheme dracula`
+
+```
+let g:dracula_colorterm = 0
+let g:dracula_italic = 0
+```
+
+Or issues macOS Big Sur broke italics in Vim
+
+```
+let &t_ZH="\e[3m"
+let &t_ZR="\e[23m"
+g:dracula_italic = 1
+```
+
 ## Team
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/hyper/graphs/contributors).
