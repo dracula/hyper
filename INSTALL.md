@@ -3,7 +3,7 @@
 #### Install using the [hyper command-line interface](https://hyper.is/)
 
 ```shell
-$ hyper install hyper-dracula
+hyper install hyper-dracula
 ```
 
 #### Install using config file
