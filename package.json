@@ -17,5 +17,16 @@
     "dracula-theme"
   ],
   "author": "Dang Van Thanh <dangvanthanh@dangthanh.or>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.3"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
 }
