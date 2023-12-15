@@ -1,32 +1,32 @@
 {
-  "name": "hyper-dracula",
-  "version": "0.2.1",
-  "main": "index.js",
-  "homepage": "https://draculatheme.com/hyper",
-  "description": "A dark theme for Hyper",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dracula/hyper.git"
-  },
-  "keywords": [
-    "hyperterm",
-    "hyper",
-    "hyper.app",
-    "hyper dracula",
-    "hyper theme",
-    "dracula-theme"
-  ],
-  "author": "Dang Van Thanh <dangvanthanh@dangthanh.or>",
-  "license": "MIT",
-  "devDependencies": {
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "prettier": "3.0.3"
-  },
-  "scripts": {
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
-  }
+	"name": "hyper-dracula",
+	"version": "0.2.1",
+	"main": "index.js",
+	"homepage": "https://draculatheme.com/hyper",
+	"description": "A dark theme for Hyper",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dracula/hyper.git"
+	},
+	"keywords": [
+		"hyperterm",
+		"hyper",
+		"hyper.app",
+		"hyper dracula",
+		"hyper theme",
+		"dracula-theme"
+	],
+	"author": "Dang Van Thanh <dangvanthanh@dangthanh.org>",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "1.4.1",
+		"husky": "^8.0.3",
+		"lint-staged": "^15.2.0"
+	},
+	"scripts": {
+		"prepare": "husky install"
+	},
+	"lint-staged": {
+		"**/*": "pnpm dlx @biomejs/biome format ./index.js --write"
+	}
 }
