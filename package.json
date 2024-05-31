@@ -1,6 +1,6 @@
 {
 	"name": "hyper-dracula",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"main": "index.js",
 	"homepage": "https://draculatheme.com/hyper",
 	"description": "A dark theme for Hyper",
@@ -19,9 +19,9 @@
 	"author": "Dang Van Thanh <dangvanthanh@dangthanh.org>",
 	"license": "MIT",
 	"devDependencies": {
-		"@biomejs/biome": "1.6.4",
+		"@biomejs/biome": "1.7.3",
 		"husky": "^9.0.11",
-		"lint-staged": "^15.2.2"
+		"lint-staged": "^15.2.5"
 	},
 	"scripts": {
 		"lint": "bunx @biomejs/biome check ./index.js --apply",

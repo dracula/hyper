@@ -11,9 +11,14 @@ hyper install hyper-dracula
 Add `hyper-dracula` to the plugins list in your `~/.hyper.js` config file.
 
 ```shell
-plugins: [
-  'hyper-dracula'
-]
+module.exports = {
+  config: {
+    backgroundColor: '#32302f' // override background color
+  },
+  plugins: {
+    'hyper-dracula'
+  }
+}
 ```
 
 #### Activating theme

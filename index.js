@@ -23,7 +23,7 @@ const colors = {
 
 exports.decorateConfig = (config) => {
 	return Object.assign({}, config, {
-		backgroundColor,
+		backgroundColor: config.backgroundColor || backgroundColor,
 		foregroundColor,
 		borderColor,
 		cursorColor,
