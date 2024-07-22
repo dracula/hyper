@@ -19,12 +19,12 @@
 	"author": "Dang Van Thanh <dangvanthanh@dangthanh.org>",
 	"license": "MIT",
 	"devDependencies": {
-		"@biomejs/biome": "1.7.3",
-		"husky": "^9.0.11",
-		"lint-staged": "^15.2.5"
+		"@biomejs/biome": "1.8.3",
+		"husky": "^9.1.1",
+		"lint-staged": "^15.2.7"
 	},
 	"scripts": {
-		"lint": "bunx @biomejs/biome check ./index.js --apply",
+		"lint": "bunx @biomejs/biome check ./index.js --write",
 		"format": "bunx @biomejs/biome format ./index.js --write",
 		"prepare": "husky"
 	},
