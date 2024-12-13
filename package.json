@@ -20,8 +20,8 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"husky": "^9.1.6",
-		"lint-staged": "^15.2.10"
+		"husky": "^9.1.7",
+		"lint-staged": "^15.2.11"
 	},
 	"scripts": {
 		"lint": "bunx @biomejs/biome check ./index.js --write",
