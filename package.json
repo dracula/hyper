@@ -21,7 +21,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"husky": "^9.1.7",
-		"lint-staged": "^15.2.11"
+		"lint-staged": "^16.1.1"
 	},
 	"scripts": {
 		"lint": "bunx @biomejs/biome check ./index.js --write",
